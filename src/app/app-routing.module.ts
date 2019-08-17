@@ -5,8 +5,8 @@ import { CardComponent } from './component/card/card.component';
 
 
 const routes: Routes = [
- { path: '', redirectTo: '/start', pathMatch: 'full'},
-  { path: 'start', component: AppComponent},
+/*  { path: '', redirectTo: '/start', pathMatch: 'full'}, */
+  { path: ' ', component: AppComponent},
   { path: 'game', component: CardComponent},
 
 ];

@@ -6,7 +6,8 @@ export const cardsData: Card[] = [
   type : 'A-corazon', 
   color:'rojo', 
   urlImagen :'card1.jpg', 
-  urlImagen2:'src/img/tapa.jpg',
+  tapa:'tapa.jpg',
+  imagen:'tapa.jpg',
   statusOpen : false,
   statusFind : false
 }   ,
@@ -15,7 +16,8 @@ export const cardsData: Card[] = [
     type: 'k-corazon',
     color: 'rojo',
     urlImagen :'card2.jpg',
-    urlImagen2 : 'src/img/tapa.jpg',
+    tapa:'tapa.jpg',
+    imagen:'tapa.jpg',
     statusOpen : false,
     statusFind : false
 },
@@ -24,7 +26,8 @@ export const cardsData: Card[] = [
     type: '5-pica',
     color: 'negra',
     urlImagen :'card3.jpg',
-    urlImagen2 : 'src/img/tapa.jpg',
+    tapa:'tapa.jpg',
+    imagen:'tapa.jpg',
     statusOpen : false,
     statusFind : false
 
@@ -34,10 +37,52 @@ export const cardsData: Card[] = [
     type: 'a-pica',
     color: 'negra',
     urlImagen :'card4.jpg',
-    urlImagen2 : 'src/img/tapa.jpg',
+    tapa:'tapa.jpg',
+    imagen:'tapa.jpg',
     statusOpen : false,
     statusFind : false
-}
+},
+
+{ id: 5,
+    type : 'A-corazon', 
+    color:'rojo', 
+    urlImagen :'card1.jpg', 
+    tapa:'tapa.jpg',
+    imagen:'tapa.jpg',
+    statusOpen : false,
+    statusFind : false
+  }   ,
+  {
+      id:6,
+      type: 'k-corazon',
+      color: 'rojo',
+      urlImagen :'card2.jpg',
+      tapa:'tapa.jpg',
+      imagen:'tapa.jpg',
+      statusOpen : false,
+      statusFind : false
+  },
+  {
+      id:7,
+      type: '5-pica',
+      color: 'negra',
+      urlImagen :'card3.jpg',
+      tapa:'tapa.jpg',
+      imagen:'tapa.jpg',
+      statusOpen : false,
+      statusFind : false
+  
+  },
+  {
+      id:8,
+      type: 'a-pica',
+      color: 'negra',
+      urlImagen :'card4.jpg',
+      tapa:'tapa.jpg',
+      imagen:'tapa.jpg',
+      statusOpen : false,
+      statusFind : false
+  }
 
 
 ]

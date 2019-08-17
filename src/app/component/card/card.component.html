@@ -3,9 +3,9 @@
 <!----><div>
       <div *ngFor="let item of cards">
       <div     >
-               <div (click)="cliked(item.cardsData)" >
+               <div (click)="open(item);cliked(item)"  style="float:left">
                           
-        <img src="../../../assets/img/{{item.urlImagen}}"  >
+        <img src="../../../assets/img/{{item.imagen}}" width="150px" height="200px">
                </div> 
        </div>
     </div>

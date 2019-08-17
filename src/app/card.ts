@@ -4,18 +4,20 @@ export class Card {
     public type:string; 
     public color: string;
     public urlImagen : string;
-    public urlImagen2 : string;
+    public tapa : string;
+    public imagen : string;
     public statusOpen : boolean;
-    public statusFind : boolean; // find = encontrado
+    public statusFind : boolean; // find = encontrado ....encontro una igual
 
     
 
-      constructor(id: number, type: string, color:string, urlImagen : string, urlImagen2 : string) {
+      constructor(id: number, type: string, color:string, urlImagen : string) {
           this.id = id;
           this.type = type;
           this.color = color;  
           this.urlImagen = urlImagen;
-          this.urlImagen2 = urlImagen2;
+          this.tapa = 'tapa.jpg';
+          this.imagen = 'tapa.jpg';
           this.statusFind = false;
           this.statusOpen = false;
 
