@@ -7,14 +7,14 @@ import {cardsData} from '../../cardsData'
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
+
+
 export class CardComponent implements OnInit {
 
   cards : Card[] = [];
   
   
-  constructor() {
-    
-   }
+  constructor() {}
 
   ngOnInit() { 
     this.cards = cardsData;

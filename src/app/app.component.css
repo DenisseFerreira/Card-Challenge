@@ -1,0 +1,9 @@
+/* body{
+    background-color: #319984;
+} */
+
+body{
+    background-image:url("src/assets/img/fondo.jpg");
+    width: 100%;
+    
+}
