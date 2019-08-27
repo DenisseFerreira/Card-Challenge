@@ -7,7 +7,13 @@ import {cardsData} from '../../cardsData'
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-
+  /* Al cargar las cartas son desordenadas mediante random */
+  // ngOnInit() { 
+  //   this.cards = cardsData;
+  //   this.cards = this.cards.sort(function() {return Math.random() - 0.5});
+  //   console.log('El array desordenado',this.cards);
+     
+  // }
 
 export class CardComponent implements OnInit {
 
@@ -18,7 +24,8 @@ export class CardComponent implements OnInit {
 
   ngOnInit() { 
     this.cards = cardsData;
-    console.log(this.cards);
+    this.cards = this.cards.sort(function() {return Math.random() - 0.5});
+     console.log('El array desordenado',this.cards);
   }
 
 
@@ -46,7 +53,7 @@ export class CardComponent implements OnInit {
             card.statusFind = true;
             element.statusFind= true;
           }else{
-           alert('jajajja te equivocaste');
+           
             card.imagen =  element.imagen = card.tapa;
             card.statusOpen = element.statusOpen = false;
           }
@@ -59,17 +66,5 @@ export class CardComponent implements OnInit {
 card.imagen = card.tapa;
   } 
 */
-
-    
-    // en tu arreglo buscas el id.... lo modifcas el statusOpen.
-
-
-    // recorres el arreglo y buscas otro status open true,  y comparas los si las cartas son iguales
-    // si lo son, dejas status encontrado true y las cartas en modo abierto
-
-    // si no son iguales, debes dejar las cartas cerradas otra vez.
-
-
-  }
-   
+}
 }

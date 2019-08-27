@@ -9,7 +9,8 @@ export const cardsData: Card[] = [
   tapa:'tapa.jpg',
   imagen:'tapa.jpg',
   statusOpen : false,
-  statusFind : false
+  statusFind : false,
+  clase:'tapaCerrada'
 }   ,
 {
     id:2,
@@ -19,7 +20,8 @@ export const cardsData: Card[] = [
     tapa:'tapa.jpg',
     imagen:'tapa.jpg',
     statusOpen : false,
-    statusFind : false
+    statusFind : false,
+    clase:'tapaCerrada'
 },
 {
     id:3,
@@ -29,7 +31,8 @@ export const cardsData: Card[] = [
     tapa:'tapa.jpg',
     imagen:'tapa.jpg',
     statusOpen : false,
-    statusFind : false
+    statusFind : false,
+    clase:'tapaCerrada'
 
 },
 {
@@ -40,7 +43,8 @@ export const cardsData: Card[] = [
     tapa:'tapa.jpg',
     imagen:'tapa.jpg',
     statusOpen : false,
-    statusFind : false
+    statusFind : false,
+    clase:'tapaCerrada'
 },
 
 { id: 5,
@@ -50,7 +54,8 @@ export const cardsData: Card[] = [
     tapa:'tapa.jpg',
     imagen:'tapa.jpg',
     statusOpen : false,
-    statusFind : false
+    statusFind : false,
+    clase:'tapaCerrada'
   }   ,
   {
       id:6,
@@ -60,7 +65,8 @@ export const cardsData: Card[] = [
       tapa:'tapa.jpg',
       imagen:'tapa.jpg',
       statusOpen : false,
-      statusFind : false
+      statusFind : false,
+      clase:'tapaCerrada'
   },
   {
       id:7,
@@ -70,7 +76,8 @@ export const cardsData: Card[] = [
       tapa:'tapa.jpg',
       imagen:'tapa.jpg',
       statusOpen : false,
-      statusFind : false
+      statusFind : false,
+      clase:'tapaCerrada'
   
   },
   {
@@ -81,7 +88,8 @@ export const cardsData: Card[] = [
       tapa:'tapa.jpg',
       imagen:'tapa.jpg',
       statusOpen : false,
-      statusFind : false
+      statusFind : false,
+      clase:'tapaCerrada'
   }
 
 

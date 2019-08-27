@@ -1,19 +1,19 @@
 <h1>
-              !Bienvenido!
-              </h1>
-            <h3>Si estas listo para jugar </h3>
-            <h3>Ya puedes comenzar!!!</h3>
+  !Bienvenido!
+</h1>
+<h3>Si estas listo para jugar </h3>
+<h3>Ya puedes comenzar!!!</h3>
 
-<!----><div class=" container">
-       <div class="img-cards">
-      <div *ngFor="let item of cards">
-      <div     >
-               <div (click)="open(item);cliked(item)"  style="float:left">
-                          
-        <img src="../../../assets/img/{{item.imagen}}" width="150px" height="200px">
-               </div> 
-       </div>
+<!---->
+<div class=" container">
+  <div class="img-cards">
+    <div *ngFor="let item of cards">
+      <div>
+        <div (click)="open(item);cliked(item)" style="float:left">
+
+          <img src="../../../assets/img/{{item.imagen}}" width="150px" height="200px">
+        </div>
+      </div>
     </div>
+  </div>
 </div>
-</div> 
-

@@ -8,6 +8,7 @@ export class Card {
     public imagen : string;
     public statusOpen : boolean;
     public statusFind : boolean; // find = encontrado ....encontro una igual
+    public clase : string;
 
     
 
